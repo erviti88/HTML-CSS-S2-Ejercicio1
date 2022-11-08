@@ -10,7 +10,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-	margin: 0;
 }
 
 h2 {
@@ -32,7 +31,7 @@ img {
 }
 
 .blue {
-    background-color: cyan;
+    background-color:#00bcd4;
 }
 
 .darkblue {
@@ -70,8 +69,27 @@ header #sign {
 }
 
 main section.container {
-    padding: 4em 2em;
+    padding: 3em 2em;
 }
+
+.btn-social {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    margin-right: 1em;
+    cursor: pointer;
+    width: auto;
+}
+
+ .btn-icon, .btn-text {
+    display: inline-block;
+ }
+
+ .btn-icon {
+    margin-right: 0.5em;
+ }
 
 input[type=email], input[type=password] {
     width: 50%;
